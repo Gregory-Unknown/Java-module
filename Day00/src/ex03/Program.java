@@ -1,4 +1,4 @@
-package ex_03;
+package ex03;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Program {
                 iligalPrintNum(-1, scan);
             int min = minNumber(scan);
             if (countWeek > 1)
-                blockChain += (long)(min * myPow(countWeek - 1));
+                blockChain += (min * myPow(countWeek - 1));
             else
                 blockChain += min;
             ++countWeek;
